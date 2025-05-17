@@ -2,7 +2,7 @@
 Azure static website CI/CD deployment template. (.NET 9.0)
 
 Automatically deploys all pushed commits to a development site using the token associated with the development Azure static website resource.
-Requires a PR in order to merge to main and upon PR completion, deploys the code to the production branch which also uses the token associated with the production Azure static website resource.
+Expects a PR in order to merge to main, and upon PR completion, deploys the code to the production branch which also uses the token associated with the production Azure static website resource.
 
 Assumes:
 1. Blazor WebAssembly is the project type.
